@@ -1,0 +1,147 @@
+* { margin: 0; padding: 0; } 
+:root{
+    --primary-color: #19a04a;
+    --Secondary-color: rgb(32, 50, 128);
+    --footer-text-color: rgb(109, 104, 104);
+}
+ul {
+    list-style-type: none;
+    font-family: sans-serif;
+  }
+  li{
+      display: inline;
+      letter-spacing: 0.1em;
+  }
+  li a{
+      padding: 1em 4em 0 0;
+   
+  }
+.nav{
+    background-color: black;
+    width: 100%;
+    height: 5em;
+
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+   
+}
+
+a:hover{
+    cursor: pointer;
+}
+/* .nav-icon{
+    padding-top: 2em;
+} */
+
+.nav-right{
+    float: right;
+}
+.nav-left{
+    padding: 5em;
+}
+.hero{
+    background-color: var(--Secondary-color);
+    height: 50em;
+    width: 100%;
+    margin: 0%;
+   
+    font-family: sans-serif;
+
+}
+h1{
+    color: var(--primary-color);
+    padding: 1em 1em 0.25em 1em;
+    text-align: center;
+    font-size: 9em;
+    font-weight: bold;
+
+}
+.hero-cont{
+   padding-left: 2em;
+}
+.hero-second-cont{
+    text-align: center;
+    padding-left: 10em;
+    color: var(--primary-color);
+    font-size: 1.5em;
+}
+.button{
+  background-color: var(--primary-color);
+  height: 4em;
+  width: 16em;
+  border-radius: 6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--Secondary-color);
+}
+/* ...................FOOTER CSS.............................. */
+.footer{
+    min-height: 556px;
+    background-color: black;
+    color: blanchedalmond;
+}
+.footer-cont{
+    display: flex;
+    justify-content: space-around;
+ 
+   
+}
+.footer-title{
+    font-size: 1.5em;
+    padding-top: 1em;
+    text-transform: uppercase;
+    color: var( --footer-text-color);
+}
+.footer-cont li{
+    display: block;
+    font-size: 1em;
+    margin: 1em 0 2em 0;
+    text-transform: capitalize;
+}
+.footer-icon li{
+    display: inline;
+    margin: 1em;
+}
+.secfooter{
+    margin: 5em ;
+}
+.secfooter li{
+    padding: 1em;
+    text-transform: capitalize;   
+    color: var(--footer-text-color);
+}
+/*...................................... premium css .......................*/
+.premium-hero{
+    background-color: var(--Secondary-color);
+    min-height: 500px;
+    width: 100%;
+ 
+}
+.premium-hero h2{
+    padding: 2em 0 0 2em;
+    text-transform: capitalize;
+    font-size: 3.5em;
+    color: rgba(209, 189, 189, 0.89);
+}
+.premium-hero p{
+    font-size: 2em;
+    font-weight: lighter;
+    padding: 0.5em 0 0 3.5em;
+    color:wheat;
+}
+.premium-hero button{
+    min-height: 4em;
+    width: 16em;
+    border-radius: 6em;
+    margin: 3em 0 0 8em;
+    background-color: black;
+    color: wheat;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.025em;
+}
